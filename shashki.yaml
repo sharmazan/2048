@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: shashki
-        image: gcr.io/gcptask-256312/app:lts
+        image: gcr.io/gcptask-256312/app:lts2
         imagePullPolicy: Always
         ports:
         - name: http-server
